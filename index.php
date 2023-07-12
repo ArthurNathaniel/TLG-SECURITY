@@ -15,7 +15,7 @@
     <!-- Swiper -->
     <div class="swiper mySwiper">
         <div class="swiper-wrapper">
-            
+
             <div class="swiper-slide">
                 <div class="swiper-text">
                     <span>WELCOME TO TLG SECURITY</span>
@@ -79,21 +79,152 @@
                 to you.
             </p>
         </div>
+        <div class="help-grid">
+            <div class="help-box">
+                <h1>325</h1>
+                <h5>PEOPLE GUARDED</h5>
+            </div>
+            <div class="help-box">
+                <h1>325</h1>
+                <h5>PEOPLE GUARDED</h5>
+            </div>
+            <div class="help-box">
+                <h1>325</h1>
+                <h5>PEOPLE GUARDED</h5>
+            </div>
+            <div class="help-box">
+                <h1>325</h1>
+                <h5>PEOPLE GUARDED</h5>
+            </div>
+        </div>
+
+        <div class="help-last">
+            <p>With over 2 decades of experience, We deliver</p>
+            <h3>PREMIUM SECURITY SOLUTIONS AT BEST PRICE</h3>
+        </div>
     </section>
+
+    <section>
+        <div class="test-bg">
+            <div class="one">
+
+            </div>
+            <div class="two">
+                <div class="two-text">
+                    <h1>Clients & Partners</h1>
+                    <p>
+                        TLG Security Agency values its clients and partners, building
+                        strong relationships based on trust, reliability, and exceptional
+                        service.
+                    </p>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="team">
+            <h1>Our Team</h1>
+            <p>
+                TLG Security Agency takes pride in its highly skilled and dedicated team,
+                ensuring unparalleled expertise and a proactive approach to fulfilling
+                your security requirements.
+            </p>
+            <div class="team-grid">
+                <div class="team-box">
+                    <div class="team-all">
+                        <div class="team-img" style="background-image:url(./images/2.jpg)">
+
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <p>Chief Security</p>
+
+                    </div>
+                </div>
+
+                <div class="team-box">
+                    <div class="team-all">
+                        <div class="team-img" style="background-image:url(./images/2.jpg)">
+
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <p>Chief Security</p>
+
+                    </div>
+                </div>
+
+                <div class="team-box">
+                    <div class="team-all">
+                        <div class="team-img" style="background-image:url(./images/2.jpg)">
+
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <p>Chief Security</p>
+
+                    </div>
+                </div>
+
+                <div class="team-box">
+                    <div class="team-all">
+                        <div class="team-img" style="background-image:url(./images/2.jpg)">
+
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <p>Chief Security</p>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section>
+        <div class="bag">
+            <div class="why-box">
+                <h2>We have Awesome Skills</h2>
+                <br>
+                <p>
+                    TLG Security Agency stands out with its exceptional team possessing
+                    a diverse range of expertise and unparalleled skills, ensuring optimal
+                    protection for your security needs.
+                </p>
+                <div class="box-why">
+                    <p>Hello World</p>
+                </div>
+            </div>
+            <div class="why-box box--">
+                <h1>Why Choose Us</h1>
+                <br>
+                <p>
+                    When it comes to your security needs, choosing TLG Security Agency means 
+                    opting for a trusted partner with a proven track record, 
+                    unmatched professionalism, and a commitment to delivering comprehensive 
+                    solutions that surpass expectations.
+                </p>
+            </div>
+        </div>
+    </section>
+
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 
-    <!-- Initialize Swiper -->
+
+
     <script>
         var swiper = new Swiper(".mySwiper", {
             loop: true,
             spaceBetween: 30,
             centeredSlides: true,
-            autoplay: {
-                delay: 2500,
-                disableOnInteraction: false,
-            },
+
             pagination: {
                 el: ".swiper-pagination",
                 clickable: true,
@@ -104,6 +235,8 @@
             },
         });
     </script>
+
+
 </body>
 
 </html>

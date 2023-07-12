@@ -7,12 +7,8 @@
 }
 
 body {
-    background: #eee;
     font-family: 'Rubik', sans-serif;
-    color: #000;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    
 }
 
 .swiper {
@@ -65,6 +61,7 @@ body {
     font-size: 30px;
 }
 
+
 .button {
     width: 100%;
 }
@@ -85,17 +82,20 @@ body {
 .welcome h1 {
     text-align: center;
     font-size: 40px;
+    margin-bottom: 20px;
 }
 
 .welcome-grid {
     padding: 0 15%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+margin-top: 30px;
 }
 
 .grid-box {
     border: 2px solid;
     width: 95%;
+    padding: 50px;
 }
 
 .top-level-grid {
@@ -103,7 +103,7 @@ body {
     grid-template-columns: 1fr 1fr;
     height: 600px;
     background-color: #1a2447;
-    padding-left: 5%;
+    padding-left: 15%;
     margin-top: 60px;
 }
 
@@ -133,5 +133,123 @@ body {
 
 .help h1 {
     font-size: 40px;
+}
+ .help p {
+     margin-top: 20px;
+ }
+.help-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0 15%;
+    margin-top: 30px;
+}
+.help-box{
+    width: 95%;
+    padding: 0 5%;
+    padding-block: 45px;
+    text-align: center;
+    background-color: #7d7d7f;
+}
+.help-last{
+    padding: 0 15%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 60px;
+}
+.help-last p{
+    color: #a6a6a6;
+    padding-bottom: 10px;
+}
+.help-last h3{
+    color: #000;
+    
+}
 
+.test-bg{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: #000;
+    margin-bottom: 60px;
+    min-height:550px;
+    background-attachment: fixed;
+  
+}
+.one{
+    background-image: url(./images/hero-one.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.two{
+    
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+   width: 100%;
+
+}
+.two h1{
+    font-size: 35px;
+}
+.two-text{
+    width: 75%;
+    margin-left: 0%;
+    margin-right:  15%;    
+}
+.team{
+    padding:0  15%;
+ 
+}
+.team h1{
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.team p {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-bottom: 60px;
+}
+.team-img{
+    width: 100%;
+    height:300px ;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team-box{
+    width: 95%;
+    height: 300px;
+    background-color: #1a2447;
+}
+.bag{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 15%;
+    margin-top:80px ;
+    background-color: #f8f8f8;
+    padding-block: 50px;
+
+
+}
+.why-box{
+    width: 95%;
+}
+.box-why{
+    padding: 50px;
+    margin-top: 30px;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+.box--{
+    width: 100%;
 }
