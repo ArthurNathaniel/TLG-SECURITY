@@ -14,20 +14,24 @@
              </div>
              <div class="top-list">
                  <div class="top-icon">
-                     <h1>icon</h1>
+                     <h1>
+                         <i class="fa fa-robot"></i>
+
+                     </h1>
                  </div>
                  <div class="top-text">
-                     <h1>Text One</h1>
+                     <h1>Advanced Technology</h1>
                  </div>
              </div>
              <div class="top-list">
                  <div class="top-icon">
-                     <h1>icon</h1>
+                     <h1><i class="fa fa-cogs"></i>
+                     </h1>
                  </div>
-                 <div class="top-text">
-                     <h1>Text One</h1>
+                 <div class=" top-text">
+                             <h1>Strategic Risk Management</h1>
                  </div>
              </div>
-            
+
          </div>
      </div>

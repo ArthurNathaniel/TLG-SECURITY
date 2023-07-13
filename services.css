@@ -1,0 +1,28 @@
+.s-grid {
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 60px;
+    margin-top: 10px;
+}
+
+.s-box {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    width: 95%;
+    padding: 0 10%;
+    padding-block: 30px;
+    margin-top: 50px;
+}
+
+.s-bg{
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 15%;
+    background-color: #f8f8f8;
+    padding-block: 50px;
+}
+.s-one{
+    width: 95%;
+    height: 100%;
+}

@@ -7,6 +7,7 @@
     <title>Home - TLG Security</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
     <link rel="stylesheet" href="style.css">
@@ -26,7 +27,7 @@
                         THE MOST SUCCESSFUL SECURITY AGENCY
                     </h1>
                     <div class="button">
-                        <a href="" class="button--">LEARN MORE</a>
+                        <a href="./about.php" class="button--">LEARN MORE</a>
                     </div>
                 </div>
                 <img src="images/hero-one.jpg" alt="">
@@ -75,20 +76,21 @@
         </div>
         <div class="help-grid">
             <div class="help-box">
-                <h1>325</h1>
-                <h5>PEOPLE GUARDED</h5>
+                <h1><i class="fa fa-users"></i></h1>
+                <p>PEOPLE GUARDED</p>
             </div>
             <div class="help-box">
-                <h1>325</h1>
-                <h5>PEOPLE GUARDED</h5>
+                <h1><i class="fa fa-star"></i></h1>
+                <p>CLIENT SATISFACTION</p>
             </div>
             <div class="help-box">
-                <h1>325</h1>
-                <h5>PEOPLE GUARDED</h5>
+                <h1><i class="fa fa-award"></i>
+                </h1>
+                <p>SERVICE EXCELLENCE</p>
             </div>
             <div class="help-box">
-                <h1>325</h1>
-                <h5>PEOPLE GUARDED</h5>
+                <h1><i class="fa fa-chart-line"></i></h1>
+                <P>CONTINUOUS IMPROVEMENT</p>
             </div>
         </div>
 
