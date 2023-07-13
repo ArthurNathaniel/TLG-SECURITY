@@ -4,11 +4,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Home - TLG Security</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
-
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -58,15 +59,8 @@
         </div>
     </section>
 
-    <section>
-        <div class="top-level-grid">
-            <div class="top-level-text">
-                <h2>Top Level of Protection</h2>
-            </div>
-            <div class="top-level-image">
-
-            </div>
-        </div>
+    <section style="margin-top: 60px;">
+        <?php include 'top.php'; ?>
     </section>
 
     <section>
@@ -186,33 +180,11 @@
     </section>
 
 
-    <section>
-        <div class="bag">
-            <div class="why-box">
-                <h2>We have Awesome Skills</h2>
-                <br>
-                <p>
-                    TLG Security Agency stands out with its exceptional team possessing
-                    a diverse range of expertise and unparalleled skills, ensuring optimal
-                    protection for your security needs.
-                </p>
-                <div class="box-why">
-                    <p>Hello World</p>
-                </div>
-            </div>
-            <div class="why-box box--">
-                <h1>Why Choose Us</h1>
-                <br>
-                <p>
-                    When it comes to your security needs, choosing TLG Security Agency means 
-                    opting for a trusted partner with a proven track record, 
-                    unmatched professionalism, and a commitment to delivering comprehensive 
-                    solutions that surpass expectations.
-                </p>
-            </div>
-        </div>
-    </section>
+    <?php include 'skills.php'; ?>
 
+    <?php include 'call.php'; ?>
+    <?php include 'cv.php'; ?>
+    <?php include 'footer.php' ?>
 
     <!-- Swiper JS -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
@@ -235,7 +207,7 @@
             },
         });
     </script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 
 </body>
 

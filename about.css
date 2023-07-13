@@ -1,0 +1,31 @@
+.about-bg{
+    padding:0 15%;
+    text-align: center;
+    margin-top: 60px;
+}
+.skilled-bg{
+    padding: 0 15%;
+    margin-top:60px;
+    text-align: center;
+}
+.v-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-top: 40px;
+    
+}
+.v-box{
+    width: 95%;
+}
+.v-img{
+    height: 250px;
+    width: 100%;
+    background-image: url(./images/2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.text---{
+    text-align: left;
+}

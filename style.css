@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Rubik', sans-serif;
-    
+
 }
 
 .swiper {
@@ -31,7 +31,18 @@ body {
     height: 100%;
     object-fit: cover;
 }
+.s-text{
+    position: absolute;
+    width: 100%;
+    left: 0;
+    text-align: left;
+    padding: 0 15%;
+    color: #fff;
+}
 
+.rest{
+    height: 40vh;
+}
 
 .swiper-text {
     position: absolute;
@@ -43,10 +54,11 @@ body {
     justify-content: center;
     align-items: center;
     line-height: 50px;
-    margin-left: 5%;
+    margin-left: 15%;
     text-align: left;
-    top: 25%;
-    padding: 20px;
+    top: 15%;
+    left: 0;
+    padding: 50px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 
@@ -89,7 +101,7 @@ body {
     padding: 0 15%;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-margin-top: 30px;
+    margin-top: 30px;
 }
 
 .grid-box {
@@ -101,7 +113,7 @@ margin-top: 30px;
 .top-level-grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 600px;
+
     background-color: #1a2447;
     padding-left: 15%;
     margin-top: 60px;
@@ -112,7 +124,7 @@ margin-top: 30px;
 }
 
 .top-level-image {
-    height: 100%;
+    height: 800px;
     width: 100%;
     background-repeat: no-repeat;
     background-position: center;
@@ -120,8 +132,19 @@ margin-top: 30px;
     background-image: url(./images/2.jpg);
 }
 
+.top-level-text {
+    color: #fff;
+    padding-right: 5%;
+    padding-block: 50px;
+
+}
+
 .top-level-text h2 {
     font-size: 35px;
+    color: #fff;
+}
+
+.top-level-text p {
     color: #fff;
 }
 
@@ -134,76 +157,90 @@ margin-top: 30px;
 .help h1 {
     font-size: 40px;
 }
- .help p {
-     margin-top: 20px;
- }
+
+.help p {
+    margin-top: 20px;
+}
+
 .help-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     padding: 0 15%;
     margin-top: 30px;
 }
-.help-box{
+
+.help-box {
     width: 95%;
     padding: 0 5%;
     padding-block: 45px;
     text-align: center;
-    background-color: #7d7d7f;
+    background-color: #ffffffe2;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+      
 }
-.help-last{
+
+.help-last {
     padding: 0 15%;
     text-align: center;
     margin-top: 30px;
     margin-bottom: 60px;
 }
-.help-last p{
+
+.help-last p {
     color: #a6a6a6;
     padding-bottom: 10px;
 }
-.help-last h3{
+
+.help-last h3 {
     color: #000;
-    
+
 }
 
-.test-bg{
+.test-bg {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #000;
     margin-bottom: 60px;
-    min-height:550px;
+    min-height: 550px;
     background-attachment: fixed;
-  
+
 }
-.one{
+
+.one {
     background-image: url(./images/hero-one.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
-.two{
-    
+.two {
+
     color: #fff;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;  
-   width: 100%;
+    align-items: center;
+    width: 100%;
 
 }
-.two h1{
+
+.two h1 {
     font-size: 35px;
 }
-.two-text{
+
+.two-text {
     width: 75%;
     margin-left: 0%;
-    margin-right:  15%;    
+    margin-right: 15%;
 }
-.team{
-    padding:0  15%;
- 
+
+.team {
+    padding: 0 15%;
+    padding-block: 50px;
+
 }
-.team h1{
+
+.team h1 {
     text-align: center;
     font-size: 40px;
     margin-bottom: 20px;
@@ -214,42 +251,258 @@ margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.team-grid{
+.team-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin-bottom: 60px;
 }
-.team-img{
+
+.team-img {
     width: 100%;
-    height:300px ;
+    height: 300px;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
-.team-box{
+
+.team-box {
     width: 95%;
     height: 300px;
     background-color: #1a2447;
 }
-.bag{
+
+.bag {
     display: grid;
     grid-template-columns: 1fr 1fr;
     padding: 0 15%;
-    margin-top:80px ;
+    margin-top: 80px;
     background-color: #f8f8f8;
-    padding-block: 50px;
+    padding-block: 100px;
+
 
 
 }
-.why-box{
+
+.why-box {
     width: 95%;
 }
-.box-why{
+
+.box-why {
     padding: 50px;
     margin-top: 30px;
     background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
 }
-.box--{
+
+.box-- {
     width: 100%;
 }
+
+.top-type {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+
+
+}
+
+.top-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+    height: 100px;
+    width: 100px;
+    margin-top: 30px;
+    border-radius: 50%;
+    background-color: #51db3d;
+}
+
+.top-type-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.accordion-button {
+    background-color: #fff;
+    border: none !important;
+}
+
+.accordion-button ::focus {
+    outline: none;
+}
+
+.accordion-button {
+    background-color: #fff;
+    color: #000;
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+.accordion-body {
+    border: none !important;
+    outline: none !important;
+    box-shadow: none !important;
+    background-color: #f8f8f8;
+    color: #7d7d7f;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.progress-bar {
+    background-color: #51db3d;
+    color: #fff;
+}
+
+.get-bg {
+    background-image: url(./images/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 600px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    padding-left: 15%;
+
+}
+
+.get-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #f8f8f8;
+}
+
+.email-btn {
+    padding-block: 30px;
+    width: 100%;
+}
+
+.email-btn input {
+    border: none !important;
+    height: 50px;
+    width: 50%;
+    padding-left: 5%;
+    font-style: italic;
+    background-color: #333333;
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+}
+
+.email-btn a {
+    background-color: #51db3d;
+    padding: 15px 25px;
+    text-decoration: none;
+    color: #000;
+    height: 50px;
+}
+
+.get-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    text-align: left;
+}
+
+.get-heading h1 {
+    width: 50%;
+}
+
+.get-heading p {
+    width: 60%;
+}
+
+.cv-bg {
+    background-color: #51db3d;
+    color: #fff;
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    width: 60%;
+    margin: 0 20%;
+    margin-block: 60px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 12px 28px 0px, rgba(0, 0, 0, 0.1) 0px 2px 4px 0px, rgba(255, 255, 255, 0.05) 0px 0px 0px 1px inset;
+}
+
+.cv-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cv-two a {
+    background-color: #1a2447;
+    width: 100%;
+    text-align: center;
+    padding: 15px 35px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ct-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    padding: 0 15%;
+    background-color: #1a2447;
+    color: #fff;
+    padding-bottom: 50px;
+}
+.ct-one{
+    text-align: center;
+    padding-block: 30px;
+    border-bottom: 2px solid #7c8095;
+    border-left: 2px solid #7c8095;
+}
+footer{
+    background-color: #1a2447;
+    color: #fff;
+}
+.ft-grid{
+    padding: 0 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+ .ft-logo {
+     width: 150px;
+     height: 90px;
+     border: 2px solid #fff;
+ }
+
+.top-list{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    margin-top: 30px;
+}
+
+ .top-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100px;
+    height: 100px;
+    background-color: #51db3d;
+    border-radius: 50%;
+ }
+
+ .top-text{
+    display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        width: 100%;
+        text-align: left;
+ }
+ .top-text h1{
+    width: 100%;
+    font-size: 20px;
+ }
